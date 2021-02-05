@@ -40,9 +40,13 @@
                                     <constraint firstAttribute="height" constant="120" id="FKh-89-2G9"/>
                                 </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VOd-J0-jpf">
-                                <rect key="frame" x="144" y="603" width="128" height="64"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VOd-J0-jpf">
+                                <rect key="frame" x="143" y="570" width="128" height="64"/>
                                 <color key="backgroundColor" systemColor="systemRedColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="64" id="Eio-gQ-ecu"/>
+                                    <constraint firstAttribute="width" constant="128" id="kt0-7P-Hgz"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="38"/>
                                 <state key="normal" title="roll">
                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -63,6 +67,7 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="yN5-8l-kag" secondAttribute="trailing" constant="50" id="gNf-nn-YJ2"/>
                             <constraint firstItem="odz-OO-unX" firstAttribute="top" secondItem="yN5-8l-kag" secondAttribute="top" id="i2x-VQ-Zqg"/>
                             <constraint firstItem="u33-l1-3ij" firstAttribute="centerX" secondItem="CW1-lY-3jK" secondAttribute="centerX" id="lPV-Kp-RYl"/>
+                            <constraint firstItem="VOd-J0-jpf" firstAttribute="top" secondItem="yN5-8l-kag" secondAttribute="bottom" constant="100" id="ojs-Y1-9u4"/>
                             <constraint firstItem="CW1-lY-3jK" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="p9c-oX-DaW"/>
                             <constraint firstItem="CW1-lY-3jK" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="tyq-eg-s0s"/>
                             <constraint firstItem="CW1-lY-3jK" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="wKF-rO-xHt"/>
