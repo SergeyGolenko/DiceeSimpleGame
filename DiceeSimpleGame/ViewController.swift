@@ -15,10 +15,17 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        updateImage()
     }
 
     @IBAction func rollButtonPressed(_ sender: UIButton) {
+   updateImage()
+    }
+    
+    
+    
+    
+    func updateImage(){
         let random = Int.random(in: 1...6)
         let random2 = Int.random(in: 1...6)
         diceImageView1.image = UIImage(named: "dice\(random)")
